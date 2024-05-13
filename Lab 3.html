@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Report Vychov</title>
+    <style>
+        /* CSS styles for enhanced readability */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Borders, padding, and margin rules */
+        .block-element {
+            border: 2px solid #333;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .inline-element {
+            border: 1px dashed #666;
+            padding: 5px;
+            margin-right: 10px;
+        }
+
+        /* Different border styles */
+        .solid-border {
+            border-style: solid;
+        }
+
+        .dotted-border {
+            border-style: dotted;
+        }
+
+        .double-border {
+            border-style: double;
+        }
+
+        .groove-border {
+            border-style: groove;
+        }
+
+        /* Background styles */
+        .background1 {
+            background-color: #f0f0f0; /* Hex color code */
+            border: 1px solid #ccc; /* Border for contrast */
+        }
+
+        .background2 {
+            background-color: rgb(255, 0, 0); /* Color name */
+            color: #fff; /* White text color for contrast */
+            border: 1px dotted #fff; /* Border for contrast */
+        }
+
+        .background3 {
+            background-color: rgba(0, 128, 0, 0.5); /* RGBA function for semi-transparent background */
+            border: 2px double #008000; /* Border for contrast */
+        }
+
+        .background4 {
+            background: linear-gradient(to right, #ff8a00, #da1b60); /* Gradient background */
+            color: #fff; /* White text color for contrast */
+            border: 3px solid #fff; /* Border for contrast */
+        }
+
+        .background5 {
+            background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px); /* Repeating gradient background */
+            color: #fff; /* White text color for contrast */
+            border: 2px dashed #fff; /* Border for contrast */
+        }
+
+        .background6 {
+            background-image: url('path/to/image.jpg'); /* Image background */
+            color: #fff; /* White text color for contrast */
+            border: 2px groove #fff; /* Border for contrast */
+        }
+
+        .background7 {
+            background-image: url('path/to/image1.png'), url('path/to/image2.png'); /* Multiple images as background */
+            background-position: top left, bottom right; /* Position for each image */
+            background-repeat: no-repeat, repeat; /* Repeat settings for each image */
+            color: #333; /* Text color for contrast */
+            border: 2px outset #ccc; /* Border for contrast */
+        }
+
+        /* Border for section headings */
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Image styles */
+        .question-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Web Development Report</h1>
+
+            <h2 class="solid-border">Opening Developer Console</h2>
+            <p>To open the developer console in Mozilla Firefox, you can use the keyboard shortcut Ctrl+Shift+K or navigate to "Tools" > "Web Developer" > "Web Console". In Safari, enable the "Show Develop menu in menu bar" option in Preferences, then select "Develop" > "Show Web Inspector" and click on the "Console" tab.</p>
+
+            
+
+            <h2 class="dotted-border">Preferred Method for Including Internal Links</h2>
+            <p>Generally, using relative links for internal linking within HTML pages is preferable. Relative links reference resources relative to the current document's location, offering flexibility and maintainability. Absolute links, on the other hand, specify the complete URL, which can be useful for linking to external resources or when the website structure changes.</p>
+
+            
+
+            <h2 class="double-border">Image Formats in Web Development</h2>
+            <p>Common image formats used in web development include:</p>
+            <ul>
+                <li><strong>JPG (JPEG)</strong>: Suitable for photographs and images with continuous colors.</li>
+                <li><strong>GIF</strong>: Often used for animations and images with transparency.</li>
+                <li><strong>PNG</strong>: Supports transparency and offers better compression without loss of quality compared to GIF.</li>
+                <li><strong>WEBP</strong>: A newer image format developed by Google, providing high-quality images with efficient compression.</li>
+                <li><strong>SVG</strong>: Scalable Vector Graphics, which are XML-based vector image formats supporting interactivity and scalability without loss of quality.</li>
+            </ul>
+            <img class="question-image" src="/Users/egor/Desktop/Снимок экрана 2024-05-11 в 22.32.09.png" alt="">
+
+            <h2 class="groove-border">Lorem Ipsum Paragraphs with Different Backgrounds</h2>
+           
+            <p class="block-element background1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background6" style="background-color: #ffcc00;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+            <p class="block-element background7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet urna vitae risus volutpat ultricies.</p>
+        </article>
+    </main>
+</body>
+</html>
